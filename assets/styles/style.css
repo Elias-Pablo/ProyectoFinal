@@ -1,0 +1,195 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: white;
+    
+}
+
+header {
+    display: flex;
+    justify-content: space-between; /* Alinear elementos a los extremos */
+    padding: 20px;
+    align-items: center;
+    height: 100px;
+}
+
+li,
+a,
+input {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    text-decoration: none;
+    color: black;
+}
+
+.header__logo__principal {
+    width: 80px;
+    cursor: pointer;
+}
+
+.navbar__links {
+    list-style: none;
+}
+
+.navbar__links li {
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+
+
+.navbar__links li a:hover {
+    background-image: linear-gradient(135deg, #008aff, #86d472);
+    border-radius: 6px;
+    padding: 5px;
+
+}
+
+.headersearch {
+    position: relative;
+}
+
+.headersearchinput {
+    width: 150px;
+    padding: 5px 0px 5px 40px;
+    border-radius: 9999px;
+    border: solid 1px #333;
+    transition: all .2s ease-in-out;
+    outline: none;
+    opacity: 0.8;
+}
+
+.headersearchinput:focus {
+    opacity: 1;
+    width: 200px;
+}
+
+.headersearch__input svg {
+    position: absolute;
+    top: 50%;
+    left: 10px;
+    transform: translate(0, -50%);
+}
+
+
+
+.header__icon {
+    display: flex;
+}
+
+.header__icon__perfil {
+    width: 50px;
+    padding: 10px;
+}
+
+.header__icon__burger {
+    padding: 10px;
+    width: 50px;
+}
+
+.header__buttons {
+    display: flex;
+    align-items: center;
+}
+.bn39 {
+background-image: linear-gradient(135deg, #008aff, #86d472);
+border-radius: 6px;
+color: black    ;
+display: block;
+height: 40px;
+font-size: 1.4em;
+font-weight: 600;
+padding: 4px;
+position: relative;
+text-decoration: none;
+width: 7em;
+z-index: 2;
+}
+.bn39:hover {
+color: black;
+}
+  
+.bn39 .bn39span {
+align-items: center;
+background: white;
+border-radius: 6px;
+display: flex;
+justify-content: center;
+height: 100%;
+transition: background 0.5s ease;
+width: 100%;
+}
+  
+.bn39:hover .bn39span {
+background: transparent;
+}
+.container__principal{
+    width: 100%;
+    height: 100vh;
+   
+    overflow: auto;
+    
+}
+.container__principal__miperfil{
+    width:30% ;
+   height: 300px;
+    padding: 30px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    text-decoration: none;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    background-color: #e9e9e9;
+    border-radius: 100px;
+    
+    align-items: center;
+    justify-content: center;
+    
+}
+.container__principal__miperfil__header{
+    display: flex;
+    align-items: center;
+    background: linear-gradient(135deg, #008aff, #86d472);
+    border-radius: 50px;
+    width: 200px;
+}
+.container__principal__miperfil__header__perfilimg{
+    width: 80px;
+    height: 80px;
+}
+.container__principal__miperfil__header__txt{
+    color: white;
+}
+.container__principal__miperfil__container{
+    padding: 10px;
+    
+}
+.container__principal__miperfil__container__photo{
+    width: 100px;
+    height: 100px;
+}
+.container__principal__miperfil__container__txt{
+    font-size: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+}
+h4{
+    font-size: 13px;
+}
+  
